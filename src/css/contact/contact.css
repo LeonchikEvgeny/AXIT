@@ -1,0 +1,150 @@
+.contact {
+  padding: 0 16px;
+  height: 622px;
+  margin: 50px auto 0 auto;
+}
+
+.customers__header {
+  height: 150px;
+  margin: 50px auto 146px auto;
+}
+
+.contact__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 150px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contact__line {
+  width: 170px;
+  height: 1px;
+  background-color: #EC7979;
+  margin: 0 auto;
+}
+
+.contact__text {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  color: #86878B;
+  margin: 40px 0 0 0;
+}
+
+.contact__row {
+  max-width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 89px auto 0;
+}
+
+.contact__user {
+  width: 49%;
+  height: 212px;
+  margin: 0 30px 0 0;
+}
+
+.contact__message {
+  height: 212px;
+  width: 49%;
+}
+
+/*.contact__user p{
+   border-bottom: 2px solid #BDBDBD;
+   width: 571px;
+   margin-bottom: 80px;
+}*/
+.contact__textbutton {
+  text-align: center;
+}
+
+.contact__button {
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  font-weight: 600;
+  height: 58px;
+  width: 370px;
+  background-color: #EC7979;
+  margin: 50px 0 0 0;
+}
+
+.contact__button:hover {
+  background-color: #AB4949;
+}
+
+.contact__button:active {
+  background-color: #EC7979;
+  -webkit-box-shadow: inset 0 0 10px #AB4949;
+          box-shadow: inset 0 0 10px #AB4949;
+}
+
+.contact__comment {
+  width: 100%;
+  padding: 0 0 17px 0;
+  border: 0;
+  border-bottom: 1px solid #bdbdbd;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 36px;
+  resize: none;
+  height: 211px;
+}
+
+.contact__input {
+  border-bottom: 1px solid #BDBDBD;
+  width: 100%;
+  margin-bottom: 50px;
+  line-height: 36px;
+}
+
+@media (max-width: 1024px) {
+  .contact {
+    width: 100%;
+  }
+  .contact__text {
+    font-size: 14px;
+  }
+  .contact__title {
+    font-size: 24px;
+  }
+  .contact__button {
+    width: 318px;
+  }
+  .contact__line {
+    width: 144px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    width: 100%;
+    height: 807px;
+  }
+  .contact__user {
+    margin: 0;
+  }
+  .contact__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact__button {
+    width: 288px;
+  }
+  .contact__line {
+    width: 134px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

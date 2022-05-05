@@ -1,0 +1,131 @@
+.about {
+  background-color: white;
+}
+
+.about__body {
+  margin: 0 auto;
+}
+
+.about__header {
+  padding-bottom: 110px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.about__text {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  color: #86878B;
+  margin: 40px 0 0 0;
+}
+
+.about__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 58px;
+}
+
+.about__colum {
+  padding: 0px 15px;
+}
+
+.about__line {
+  width: 145px;
+  height: 1px;
+  background-color: #EC7979;
+  margin: 0 auto;
+}
+
+.about__title {
+  height: 150px;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  text-align: center;
+  padding: 50px 0 0 0;
+}
+
+.item-about__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item-about__title {
+  height: 100px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+  padding: 39px 0 0 0;
+  margin-bottom: 8px;
+}
+
+.item-about__text {
+  font-family: 'Raleway', sans-serif;
+  height: 105px;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .about__header {
+    padding-bottom: 65px;
+  }
+  .about__text {
+    font-size: 14px;
+  }
+  .about__colum {
+    padding: 0px 10px;
+  }
+  .about__line {
+    width: 142px;
+  }
+  .about__title {
+    font-size: 24px;
+  }
+  .item-about__title {
+    font-size: 18px;
+  }
+  .item-about__text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about__header {
+    padding-bottom: 10px;
+  }
+  .about__body {
+    margin: 0 auto;
+    height: 1200px;
+  }
+  .about__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .item-about__title {
+    padding: 2px 0 0 0;
+    margin-bottom: 1px;
+    height: 60px;
+  }
+  .item-about__text {
+    font-size: 14px;
+    height: 50px;
+  }
+}
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,166 @@
+.pricing {
+   height: 850px;
+   margin: 0 auto;
+   background-color: #F5F5F5;
+}
+
+.pricing__header {
+   padding-bottom: 79px;
+   margin: 0 auto;
+}
+
+.pricing__title {
+   text-transform: uppercase;
+   height: 150px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 36px;
+   text-align: center;
+   padding: 50px 0 0 0;
+}
+
+.pricing__text {
+   font-family: "Raleway", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   text-align: center;
+   color: #86878B;
+   margin: 40px 0 0 0;
+}
+
+.pricing__line {
+   width: 170px;
+   height: 1px;
+   background-color: #EC7979;
+   margin: 0 auto;
+}
+
+.pricing__row {
+   display: flex;
+   margin: 0 auto;
+   justify-content: center;
+   margin: 0 0 50px 0;
+   text-align: center;
+}
+
+.first__rectangle {
+   font-family: "Open Sans", sans-serif;
+   color: #FFFFFF;
+   background-color: #333333;
+   height: 60px;
+   margin-bottom: 1px;
+   line-height: 2.3;
+   font-size: 24px;
+   font-weight: 700;
+}
+
+.second__rectangle {
+   font-family: "Raleway", sans-serif;
+   background-color: #333333;
+   height: 100px;
+   margin-bottom: 1px;
+   color: #FFFFFF;
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 2.7;
+
+}
+
+.third__rectangle {
+   font-family: "Raleway", sans-serif;
+   background-color: #333333;
+   height: 50px;
+   margin-bottom: 1px;
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 18px;
+   font-style: normal;
+   line-height: 2.5;
+}
+
+.column__rectangle {
+   height: 50px;
+   color: #86878B;
+   background: #FFFFFF;
+   margin-bottom: 1px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 18px;
+   line-height: 2.5;
+}
+
+.column__price {
+   margin: 0 15px;
+   width: 370px;
+   height: 510px;
+}
+
+.column__price:hover {
+   position: relative;
+   margin: 0 15px;
+   box-shadow: 0 10px 10px rgba(0 0 0 / 50%);
+}
+.column__price:nth-child(odd){
+   margin: 17px 0 0 0;
+}
+
+@media(max-width:1024px) {
+   .pricing__title {
+      font-size: 24px;
+   }
+
+   .pricing__text {
+      font-size: 14px;
+   }
+
+   .pricing__line {
+      width: 143px;
+   }
+   .column__price {
+      width: 317px;
+      height: 452px;
+   }
+}
+@media(max-width:768px) {
+   .pricing {
+      height: 1480px;
+      margin-bottom: 100px;
+   }
+   .pricing__line {
+      width: 134px;
+   }
+
+   .column__price {
+      width: 288px;
+      height: 400px;
+   }
+
+   .first__rectangle {
+      height: 47px;
+      font-size: 18px;
+      line-height: 2.3;
+   }
+
+   .second__rectangle {
+      height: 78px;
+      font-size: 24px;
+      line-height: 3;
+   }
+
+   .third__rectangle {
+      font-size: 14px;
+      height: 39px;
+   }
+
+   .column__rectangle {
+      height: 39px;
+      font-size: 14px;
+   }
+   .pricing__row {
+      flex-direction: column;
+      align-items: center;
+   }
+   .column__price {
+      margin: 0 0 27px 0;
+   }
+   .pricing__header {
+      padding: 0 0 24px 0;
+   }
+}

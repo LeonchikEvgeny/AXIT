@@ -1,0 +1,351 @@
+#check-menu{
+   display: none;
+}
+.banner__header {
+   height: 75px;
+   background-color: #000000;
+   justify-content: space-between;
+   display: flex;
+   top: 0px;
+   z-index: 4;
+}
+.banner__logo {
+   padding-left: 115px;
+}
+.banner__menu{
+   display: flex;
+   padding-right: 115px;
+}
+.banner__menu p{
+   height: 75px;
+   width: 113px;
+   text-align: center;
+   color: #FFFFFF;
+   background-color: #000000 ;
+   font-family: "Open Sans",sans-serif;
+   font-weight: 600;
+   line-height: 5.2;
+}
+.banner__menu p:hover{
+   background-color: #EC7979;
+}
+.banner__menu p:active{
+   background-color: #AB4949;
+}
+.banner__row{
+   position: relative;
+   justify-content: space-between;
+   height: 951px;
+   background-image: url(../../images/banner/axit.png);
+   display: flex;
+   background-size: cover;
+   background-repeat: round;
+}
+.banner__row::after{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: rgba(0,0,0,.5);
+   z-index: 2;
+}
+.axit__image{
+   height: 100px;
+   width: 280px;
+   padding: 231px 0 0 0;
+   margin-left: 170px;
+}
+.column__axit{
+   position: relative;
+   z-index: 3;
+}
+.column__axit h1{
+   font-family: "Raleway",sans-serif;
+   color: #FFFFFF;
+   height:170px ;
+   padding: 128px 0 0 0;
+   margin-left: 170px;
+   font-size: 48px;
+   font-weight: 500;
+   line-height: 56px;
+}
+.column__axit hr{
+   width: 170px;
+   height: 1px;
+   background-color: #FFFFFF;
+   margin: 170px 0 0 170px;
+}
+.column__axit p{
+   height: 42px;
+   width: 270px;
+   color: #FFFFFF;
+   font-family: "Raleway",sans-serif;
+   font-size: 18px;
+   margin: 42px 0 0 170px;
+}
+.column__form{
+   height: 450px;
+   background-color: #FFFFFF;
+   margin: 208px 170px 0 30px;
+   border-radius: 10px;
+   z-index: 3;
+}
+.column__form h1{
+   font-family: "Open Sans",sans-serif;
+   text-transform: uppercase;
+   font-size: 24px;
+   font-weight: 700;
+   height: 90px;
+   margin-left: 53px;
+   line-height: 3.8;
+}
+.column__form p{
+height: 38px;
+margin-left: 50px;
+}
+.column__form div{
+padding: 45px 0 0 0;
+}
+.column__input{
+   margin-bottom: 33px;
+   font-size: 20px;
+}
+.started__button{
+   font-family: "Open Sans",sans-serif;
+   font-size: 15px;
+   font-weight: 600;
+   height: 60px;
+   width: 470px;
+   color: #FFFFFF;
+   background-color: #EC7979;
+   margin-top: 96px;
+   border-radius:0 0 10px 10px;
+}
+.started__button:hover{
+   background-color: #AB4949;
+}
+.started__button:active{
+   background-color: #EC7979;
+   box-shadow: inset 0 0 10px #AB4949;
+}
+.axit__button{
+   font-family: "Open Sans",sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+   color: #FFFFFF;
+   background-color: transparent;
+   height: 58px;
+   width: 270px;
+   border: 2px solid #FFFFFF;
+   margin: 42px 0 0 170px;
+}
+.axit__button:hover{
+   color: #EC7979;
+   border: 2px solid #EC7979;
+}
+.axit__button:active{
+   color: #FFFFFF;
+	background-color: #AB4949;
+}
+.form__input{
+   font-family: "Open Sans",sans-serif;
+   border-bottom: 1px solid #BDBDBD;
+   width: 370px;
+   margin-bottom: 50px;
+   line-height: 36px;
+}
+@media(max-width:1024px){
+   .axit__image {
+      margin-left: 115px;
+  }
+   .column__axit{
+      margin: 0 auto;
+   }
+   .column__axit h1{
+      font-size: 36px;
+      line-height: 1;
+      margin-left: 115px;
+   }
+   .column__axit hr{
+      width: 115px;
+      margin-left: 115px;
+   }
+   .column__axit p{
+      font-size: 14px;
+      margin-left: 115px;
+   }
+   .axit__button{
+      margin-left: 115px;
+   }
+   .column__form{
+      width: 398px;
+   }
+   .started__button{
+      width: 398px;
+   }
+   .form__input{
+      width: 298px;
+   }
+   .column__form h1{
+      font-size: 18px;
+   }
+   .banner__logo{
+      width: 100px;
+   }
+}
+@media(max-width:768px){
+   /*################
+   #################
+   #################
+   ##################
+   ###################
+   #################*/
+
+   .banner__header {
+      position: relative;
+      height: 75px;
+      background-color: #000000;
+      justify-content: space-between;
+      display: flex;
+      top: 0px;
+      z-index: 4;
+   }
+   
+   #check-menu {
+      display: none;
+      width: 100%;
+   }
+   
+   label {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      z-index: 2;
+   }
+   
+   .burger-line {
+      position: absolute;
+      top: 8px;
+      right: 10px;
+      width: 35px;
+      height: 2px;
+      background-color: #FFFFFF;
+      transition: .5s all;
+   }
+   .secondburgerline{
+      top: 18px;
+   }
+   .thirdburgerline{
+      top: 18px;
+   }
+   .fourthburgerline{
+      top: 28px;
+   }
+   .banner__menu {
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      transform: translateY(100%);
+      max-height: 0;
+      font-size: 0;
+   }
+   .banner__menu p{
+      display: block;
+      font-family: "Raleway", sans-serif;
+      width: 100%;
+      color: #FFFFFF;
+      text-decoration: none;
+      background: #000;
+      transition: .5s all;
+   }
+
+   .banner__menu {
+      display: none;
+      padding-right: 0;
+   }
+   #check-menu:checked ~ .banner__menu p{
+      font-size: 16px;
+   }
+   #check-menu:checked ~ .banner__menu{
+      display: block;
+   }
+   #check-menu:checked ~ .firstburgerline{
+      display: none;
+   }
+   #check-menu:checked ~ .secondburgerline{
+      transform: rotate(45deg);
+   }
+   #check-menu:checked ~ .thirdburgerline{
+      transform: rotate(-45deg);
+   }
+   #check-menu:checked ~ .fourthburgerline{
+      display: none;
+   }
+
+   /*###################
+   ######################
+   ##################
+   #####################*/
+   .banner__logo {
+      padding: 0 0 0 20px;
+   }
+   .axit__image{
+      display: none;
+   }
+   .banner__row{
+      flex-direction: column;
+      height: 1005px;
+   }
+   .column__axit hr{
+      width: 134px;
+      margin: 80px auto 0 auto;
+   }
+   .column__axit h1{
+      line-height: 42px;
+      padding-top: 84px;
+      margin: 0 auto;
+      text-align: center;
+   }
+   .banner__row{
+      margin: 0 auto;
+   }
+   .column__axit p{
+      margin: 42px auto 0 auto;
+      text-align: center;
+   }
+   .column__form{
+      margin: 56px auto 0 auto;
+      width: 288px;
+      height: 381px;
+   }
+   .started__button{
+      width: 288px;
+   }
+   .form__input{
+      width: 240px;
+   }
+   .column__form p{
+      margin:0 auto;
+   }
+   .axit__bannerbutton{
+      text-align: center;
+      margin: 0 auto;
+   }
+   .axit__button{
+      margin: 43px auto 0 auto;
+   }
+   .banner__row{
+      justify-content: center;
+   }
+   .column__form h1 {
+      margin: 0 auto;
+   }
+}

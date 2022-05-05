@@ -1,0 +1,119 @@
+.stylish {
+  width: 100%;
+  position: relative;
+  height: 442px;
+  background-image: url("../../images/stylish/image.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.stylish::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.stylish__title {
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  color: #FFFFFF;
+  font-size: 36px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 125px 0 40px 0;
+  z-index: 3;
+}
+
+.stylish__line {
+  position: relative;
+  height: 1px;
+  width: 170px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+}
+
+.stylish__text {
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  height: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 40px;
+  z-index: 3;
+}
+
+.stylish__button {
+  text-align: center;
+}
+
+.stylish__textbutton {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 73px 0 0 0;
+  height: 58px;
+  width: 370px;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  z-index: 3;
+}
+
+.stylish__textbutton:hover {
+  position: relative;
+  color: #EC7979;
+  border: 2px solid #EC7979;
+  z-index: 3;
+}
+
+.stylish__textbutton:active {
+  position: relative;
+  color: #FFFFFF;
+  background-color: #AB4949;
+  z-index: 3;
+}
+
+@media (max-width: 1024px) {
+  .stylish {
+    width: 100%;
+  }
+  .stylish__text {
+    font-size: 18px;
+  }
+  .stylish__title {
+    font-size: 24px;
+  }
+  .stylish__line {
+    width: 142px;
+  }
+  .stylish__textbutton {
+    width: 318px;
+  }
+}
+
+@media (max-width: 768px) {
+  .stylish {
+    width: 100%;
+  }
+  .stylish__text {
+    font-size: 14px;
+  }
+  .stylish__title {
+    font-size: 24px;
+  }
+  .stylish__line {
+    width: 134px;
+  }
+  .stylish__textbutton {
+    width: 287px;
+  }
+}
+/*# sourceMappingURL=stylish.css.map */
